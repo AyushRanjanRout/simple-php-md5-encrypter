@@ -1,10 +1,7 @@
 <?php
 
 if(isset($_POST['md5'])){
-
-$md5 = md5($_POST['md5']);
-
-
+  $md5 = md5($_POST['md5']);
 }
 
 ?>
@@ -39,14 +36,14 @@ $md5 = md5($_POST['md5']);
     </style>    
 </head>
 <body>
+    <h1>Simple Md5 Encryptor</h1>
     <form action="index.php" method="post" class="form">
         <input class="input_box" type="text" placeholder="Enter Text Here " name="md5">
         <button class="submit_box" type="submit">Encrypt</button>
     </form>
    <?php 
     if(isset($_POST['md5'])){
-     //echo $_POST['md5'] . $md5;
-     echo "<p>Your Hash is :<b> $md5</b></p>";
+      echo "<p>Your Hash is : <b> $md5</b></p>";
     }
     ?>
   
