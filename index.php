@@ -18,6 +18,9 @@ if(isset($_POST['md5'])){
             margin:auto;
             display:block;
         }
+      .p{
+        color:red;
+      }
 
         .input_box{
             width:50%;
