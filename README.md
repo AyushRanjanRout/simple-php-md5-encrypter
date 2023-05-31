@@ -5,4 +5,4 @@ A Simple Md5 Encryptor php
 Next Step
 Add a Beautiful UI to This php file
 
-<a href="http://atvodia.online/" rel="dofollow">http://atvodia.online/</a>
+<a href="http://atvodia.online/" >http://atvodia.online/</a>
